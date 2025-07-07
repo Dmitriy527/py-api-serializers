@@ -4,7 +4,10 @@ from rest_framework import routers
 from .views import (
     CinemaHallViewSet,
     GenreViewSet,
-    ActorViewSet, MovieViewSet, MovieSessionViewSet, OrderViewSet,
+    ActorViewSet,
+    MovieViewSet,
+    MovieSessionViewSet,
+    OrderViewSet,
 )
 
 router = routers.DefaultRouter()
